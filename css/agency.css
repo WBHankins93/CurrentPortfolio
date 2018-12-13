@@ -43,7 +43,6 @@ section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
-  text-align: center;
 }
 
 section h3.section-subheading {
@@ -696,31 +695,32 @@ ul.social-buttons li a {
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: teal;
 }
+
 .grid-container {
- display: grid;
- grid-template-columns: 300px 300px 300px 300px;
- grid-gap: 5px;
- background-color: #fff;
- color: teal;
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-gap: 5px;
+  background-color: #fff;
+  color: teal;
 }
 
 .grid-item {
- background-color: teal;
- color: #fff;
- border: 3px solid black;
- padding: 20px;
- font-size: 150%;
+  background-color: teal;
+  color: #fff;
+  border: 3px solid black;
+  padding: 20px;
+  font-size: 150%;
 
 }
 
 .language {
- text-shadow: 2px 2px 4px #000000;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .sketch {
- height: 100px;
+  height: 100px;
 }
 
 .mongo {
- max-width: 270px;
+  max-width: 270px;
 }
